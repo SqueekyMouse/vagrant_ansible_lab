@@ -12,6 +12,8 @@ The port, VM name etc. are set in the Vagrant file.
 Sample ssh config file is given in res/config. Once its placed in \<home\>/.ssh/ , can ssh by given name, ie.\
 ssh ansible-controller
 
+For passwordless ssh, ie host-key-based ssh authentication, use ssh-copy command to copy local user key to virtualmachines.
+
 Ofcourse can directly ssh to virtual machines with
 vagrant ssh <target>
 
