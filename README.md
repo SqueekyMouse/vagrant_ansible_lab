@@ -9,7 +9,7 @@ ssh sree@192.168.56.30 -p 2720
 
 The port, VM name etc. are set in the Vagrant file.
 
-Sample ssh config file is given in res/config. Once its places in \<home\>/.ssh/ , can ssh by given name, ie.\
+Sample ssh config file is given in res/config. Once its placed in \<home\>/.ssh/ , can ssh by given name, ie.\
 ssh ansible-controller
 
 Ofcourse can directly ssh to virtual machines with
@@ -28,4 +28,4 @@ vagrant snapshot restore \
 vagrant snapshot restore \<target\>
 
 To restore only target nodes:\
-for i in 1 2; do vagrant snapshot restore AnsibleTarget0$i system_ready_01; done
+for i in 1 2; do vagrant snapshot restore AnsibleTarget0$i \<snapshot_name\>; done
