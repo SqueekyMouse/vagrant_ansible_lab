@@ -82,7 +82,7 @@ Vagrant.configure("2") do |config|
       # todo: bridge network with internal ip specified in config!!
 
       # todo: os specific shell script execution with if os_box condition!!
-      # todo: combile shell scripts into one!!
+      # todo: combine shell scripts into one!!
       node.vm.provision "setup-dns", type: "shell", :path => "update-dns.sh"
       node.vm.provision "setup-repo", type: "shell", :path => "pkgs_deb.sh"
       node.vm.provision "add-sudo-user", type: "shell", :path => "bootstrap_deb.sh"

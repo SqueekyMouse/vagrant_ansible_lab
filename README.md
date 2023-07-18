@@ -25,7 +25,7 @@ vagrant snapshot list\
 vagrant snapshot save \
 vagrant snapshot save \<target\>\
 vagrant snapshot restore \
-vagrant snapshot restore \<target\>\
+vagrant snapshot restore \<target\>
 
 To restore only target nodes:\
 for i in 1 2; do vagrant snapshot restore AnsibleTarget0$i system_ready_01; done
