@@ -1,0 +1,20 @@
+# /home/<user>/.ssh/config
+
+Host ansible-controller
+HostName 127.0.0.1
+User sree
+Port 2720
+StrictHostKeyChecking No
+
+Host ansible-target01
+HostName 127.0.0.1
+User sree
+Port 2721
+StrictHostKeyChecking No
+
+Host ansible-target01
+HostName 127.0.0.1
+User sree
+Port 2722
+StrictHostKeyChecking No
+

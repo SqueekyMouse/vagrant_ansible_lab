@@ -1,0 +1,9 @@
+vagrant up
+vagrant status
+vagrant ssh <target>
+vagrant halt
+vagrant destroy
+vagrant snapshot list
+vagrant snapshot save <>
+
+for i in 1 2;do vagrant snapshot restore AnsibleTarget0$i system_ready_01;done
