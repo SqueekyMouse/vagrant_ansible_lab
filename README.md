@@ -22,9 +22,9 @@ vagrant ssh <target>\
 vagrant halt\
 vagrant destroy\
 vagrant snapshot list\
-vagrant snapshot save 
+vagrant snapshot save \
 vagrant snapshot save \<target\>\
-vagrant snapshot restore 
+vagrant snapshot restore \
 vagrant snapshot restore \<target\>\
 
 To restore only target nodes:\
